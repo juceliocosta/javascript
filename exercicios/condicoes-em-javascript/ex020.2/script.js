@@ -1,7 +1,6 @@
 function verificar() {
     const idade = getIdade('ano') //true: Number idade. False: 0
     const sexo = getSex('sexo')
-    const view = document.querySelector("#view")
     const faixaEtaria = getFaixaEtaria(idade); 
     const emoji = getEmoji(faixaEtaria, sexo);
 
