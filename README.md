@@ -1,4 +1,4 @@
 # javascript
  Curso de javacript do CursoemVideo
- <a href="https://github.com/juceliocosta/javascript/">🔗Ver Exercícios</a>
+ <a href="https://juceliocosta.github.io/javascript-exercicios/">🔗Ver Exercícios</a>
 
