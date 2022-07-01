@@ -29,7 +29,14 @@
         <form action="#" method="get">
             <p>
                 <label for="fnum">Número: </label>
-                <input type="number" name="num" id="fnum" placeholder="Número: ">
+                <input type="number" name="num" id="fnum" placeholder="Número: "><br>
+                <label for="foper">Operador: </label>
+                <select id="foper">
+                    <option value="+">Adição +</option>
+                    <option value="-">Subtração -</option>
+                    <option value="*">Multiplicação x</option>
+                    <option value="/">Divisão ÷</option>
+                </select><br>
                 <input type="submit" value="Tabuada" formaction="javascript:tabuada()">
             </p>
         </form>

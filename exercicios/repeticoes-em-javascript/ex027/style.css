@@ -2,7 +2,7 @@
 
 body { font: 12pt Arial; }
 h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
-input[type=number] { font-size: 12pt; }
+input[type=number], select { font-size: 12pt; }
 input[type=submit] { 
     background-color: green; 
     color: white; 

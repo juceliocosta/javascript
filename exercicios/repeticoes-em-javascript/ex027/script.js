@@ -17,11 +17,18 @@
 function tabuada() {
     let saida = document.getElementById('saida')
     let n = Number(document.getElementById('fnum').value)
-
+    let oper = document.getElementById("foper").value
     saida.innerHTML = `<h2>Tabuada de ${n}</h2>`
-    let c = 1
-    while (c <= 10) {
-        saida.innerHTML += `${n} x ${c} = <strong>${n * c}</strong><br>`
-        c ++
+    if (oper == "/" && n == 0) {
+        saida.innerHTML = "<h2>Impossível dividir por zero</h2>"
+    } else {
+        for (let i=1; i<=10;i++){
+            var result
+            if (oper == "+"){result = n + i}
+            if (oper == "-"){result = n - i}
+            if (oper == "*"){result = n * i}
+            if (oper == "/"){result = n / i}
+            saida.innerHTML += `${n} ${oper} ${i} = <strong>${result}</strong><br>`
+        }
     }
 }
